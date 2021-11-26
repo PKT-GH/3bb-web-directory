@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;1,200&display=swap');
+
+.modal-content {
+  background-color: rgba(250, 250, 250, 0.9);
+  color: rgb(0, 0, 0);
+}
+
+body {
+  font-family: 'Prompt', sans-serif;
+}
+
+.gallery {
+  transition: 1s;
+  filter: grayscale(20%);
+}
+
+.gallery:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+.row {
+  --bs-gutter-x: 0.7rem;
+  --bs-gutter-y: 0.7rem;
+}
